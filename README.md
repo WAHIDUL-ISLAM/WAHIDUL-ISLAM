@@ -81,11 +81,12 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 ## 🐍 Contribution Snake
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/WAHIDUL-ISLAM/WAHIDUL-ISLAM/output/github-contribution-grid-snake.svg" />
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WAHIDUL-ISLAM/WAHIDUL-ISLAM/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WAHIDUL-ISLAM/WAHIDUL-ISLAM/output/snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/WAHIDUL-ISLAM/WAHIDUL-ISLAM/output/snake.svg">
+  </picture>
 </div>
-
 ---
 
 ## 📈 GitHub Activity
