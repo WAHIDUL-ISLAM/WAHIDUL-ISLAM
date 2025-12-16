@@ -85,15 +85,15 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=WAHIDUL-ISLAM&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=WAHIDUL-ISLAM&show_icons=true&theme=tokyonight&hide_border=true" />
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=WAHIDUL-ISLAM&theme=tokyonight&hide_border=true" />
 
 <br/><br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=WAHIDUL-ISLAM&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&token=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
-" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WAHIDUL-ISLAM&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
+
 
 ---
 
