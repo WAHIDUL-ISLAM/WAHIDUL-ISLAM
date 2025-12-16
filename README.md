@@ -120,10 +120,10 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 
 <div align="center">
 
-<a href="mailto:your_email@example.com">
+<a href="mailto:wahidul.islam.ziad@gmail.com">
   <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=ef4444" />
 </a>
-<a href="https://www.linkedin.com/in/yourprofile">
+<a href="https://www.linkedin.com/in/wahidul-islam-ziad-678738261/">
   <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=0ea5e9" />
 </a>
 
