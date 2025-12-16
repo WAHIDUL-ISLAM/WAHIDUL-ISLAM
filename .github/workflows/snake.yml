@@ -2,33 +2,25 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    # Runs at midnight
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-# Explicit permissions ensure the action works regardless of repo defaults
 permissions:
   contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5 # Safety limit
+    timeout-minutes: 5
 
     steps:
       - name: Generate snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }} # Dynamic username fetch
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            # 1. Standard "Light Mode" Palette (Greyscale/Clean)
             dist/snake.svg?color_snake=#38BDF8&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            
-            # 2. "Dark Mode" Palette (Neon/Cyberpunk Style) - This is the "Eyepleasing" one
             dist/snake-dark.svg?color_snake=#E1341E&color_dots=#161b22,#631c03,#bd561d,#fa7a18,#fddf68
-            
-            # Alternative: Ocean Palette (Uncomment to use)
-            # dist/snake-dark.svg?color_snake=#78f2d6&color_dots=#161b22,#10333d,#1d6168,#289296,#37c7c9
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
