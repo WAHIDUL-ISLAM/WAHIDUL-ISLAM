@@ -46,7 +46,6 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 <div align="center">
 
 ### Languages
-
 ![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=38bdf8)
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=facc15)
 ![Java](https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=fb7185)
@@ -54,14 +53,12 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 ![C++](https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge&logo=c%2B%2B&logoColor=3b82f6)
 
 ### Frontend
-
 ![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=f97316)
 ![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=38bdf8)
 ![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=38bdf8)
 ![Tailwind](https://img.shields.io/badge/Tailwind-111827?style=for-the-badge&logo=tailwindcss&logoColor=22d3ee)
 
 ### Backend & Systems
-
 ![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=for-the-badge&logo=fastapi&logoColor=22c55e)
 ![MySQL](https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=60a5fa)
 ![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=f97316)
@@ -75,13 +72,23 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 > 🧠 *Every pinned repo answers one question:*  
 > **“What happens if we push this system further?”**
 
-- 📌 Clean architecture over shortcuts
-- 📌 Measurable behavior over hype
-- 📌 Learning documented through commits
+- 📌 Clean architecture over shortcuts  
+- 📌 Measurable behavior over hype  
+- 📌 Learning documented through commits  
 
 ---
 
-## 📊 GitHub Pulse
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/WAHIDUL-ISLAM/WAHIDUL-ISLAM/output/github-contribution-grid-snake.svg" />
+
+</div>
+
+---
+
+## 📈 GitHub Activity
 
 <div align="center">
 
@@ -94,21 +101,6 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 
 </div>
 
-
----
-
-## 🎬 Activity Animation
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=WAHIDUL-ISLAM&theme=tokyonight&no-frame=true&row=1&column=6" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=WAHIDUL-ISLAM&theme=tokyo-night&hide_border=true" />
-
-</div>
-
 ---
 
 ## 🧭 How I Think
@@ -116,7 +108,7 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 > • Systems > Scripts  
 > • Understanding > Memorization  
 > • Design first, code second  
-> • Simple scales, clever breaks
+> • Simple scales, clever breaks  
 
 ---
 
