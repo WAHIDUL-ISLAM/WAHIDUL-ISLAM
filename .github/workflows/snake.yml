@@ -35,7 +35,7 @@ jobs:
             # Background matches GitHub Dark Dimmed to look transparent
             # Dots go from deep slate to bright platinum
             # Snake is Neon Cyan (#00f2ff) for high contrast
-            dist/snake-dark.svg?color_snake=#00f2ff&color_dots=#161b22,#1b263b,#415a77,#778da9,#e0e1dd
+            dist/snake-dark.svg?color_snake=#00f2ff&color_dots=#161b22,#4c1d95,#8b5cf6,#d946ef,#f472b6
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
