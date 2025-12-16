@@ -1,0 +1,22 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: WAHIDUL-ISLAM
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+
+      - name: Commit files
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "🐍 Update contribution snake"
