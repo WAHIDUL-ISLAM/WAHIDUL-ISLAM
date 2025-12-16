@@ -2,16 +2,20 @@ name: Generate Contribution Snake
 
 on:
   schedule:
+    # Runs automatically every day at midnight (UTC)
     - cron: "0 0 * * *"
+  
+  # Allows you to run it manually from the Actions tab for testing
   workflow_dispatch:
 
+# Grant write permission so the workflow can push the image to the branch
 permissions:
   contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 5 # Fails fast if something gets stuck
 
     steps:
       - name: Checkout repository
@@ -20,10 +24,18 @@ jobs:
       - name: Generate snake
         uses: Platane/snk@v3
         with:
-          github_user_name: WAHIDUL-ISLAM
+          # Uses the username of the repo owner automatically
+          github_user_name: ${{ github.repository_owner }}
+          
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            # 1. LIGHT MODE: Classic GitHub Green (Clean & Professional)
+            dist/snake.svg?color_snake=#38BDF8&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            
+            # 2. DARK MODE: "Modern SaaS" Blue Gradient (Industry Standard)
+            # Background matches GitHub Dark Dimmed to look transparent
+            # Dots go from deep slate to bright platinum
+            # Snake is Neon Cyan (#00f2ff) for high contrast
+            dist/snake-dark.svg?color_snake=#00f2ff&color_dots=#161b22,#1b263b,#415a77,#778da9,#e0e1dd
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
