@@ -65,6 +65,8 @@ I care about how software behaves *under pressure*: scale, data, time, and human
 
 </div>
 
+<br/>
+
 ---
 
 ## 🧪 Featured Projects Philosophy
@@ -85,10 +87,9 @@ I care about how software behaves *under pressure*: scale, data, time, and human
   <source media="(prefers-color-scheme: dark)"
           srcset="https://raw.githubusercontent.com/WAHIDUL-ISLAM/WAHIDUL-ISLAM/output/snake-dark.svg">
   <img src="https://raw.githubusercontent.com/WAHIDUL-ISLAM/WAHIDUL-ISLAM/output/snake.svg">
-</picture>
-
-
+  </picture>
 </div>
+
 ---
 
 ## 📈 GitHub Activity
