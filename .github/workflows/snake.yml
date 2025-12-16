@@ -17,10 +17,10 @@ jobs:
       - name: Generate snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: WAHIDUL-ISLAM
           outputs: |
-            dist/snake.svg?color_snake=#38BDF8&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            dist/snake-dark.svg?color_snake=#E1341E&color_dots=#161b22,#631c03,#bd561d,#fa7a18,#fddf68
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
